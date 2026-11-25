@@ -1,0 +1,16 @@
+SKU,Item,Warehouse,On Hand,Reorder Lvl,Status
+SKU-4100,Whiteboard Marker (pack of 12),WH-ISB,592,50,OK
+SKU-4107,HP 305A Toner Cartridge,WH-Karachi,429,150,OK
+SKU-4114,Whiteboard Marker (pack of 12),WH-Karachi,321,100,OK
+SKU-4121,Wireless Mouse,WH-Karachi,134,150,Reorder
+SKU-4128,USB-C Hub 7-in-1,WH-Karachi,74,50,OK
+SKU-4135,File Folder (box of 25),WH-Lahore,576,50,OK
+SKU-4142,Printer Ink 664 Black,WH-Lahore,218,150,OK
+SKU-4149,USB-C Hub 7-in-1,WH-Karachi,70,100,Reorder
+SKU-4156,Spiral Notebook 200pg,WH-ISB,161,200,Reorder
+SKU-4163,Ethernet Cable 5m,WH-ISB,309,50,OK
+SKU-4170,Laptop Stand Aluminium,WH-ISB,567,150,OK
+SKU-4177,HP 305A Toner Cartridge,WH-Lahore,137,150,Reorder
+SKU-4184,HP 305A Toner Cartridge,WH-Karachi,566,100,OK
+SKU-4191,Spiral Notebook 200pg,WH-Lahore,215,150,OK
+SKU-4198,Sticky Notes 3x3,WH-Karachi,270,200,OK

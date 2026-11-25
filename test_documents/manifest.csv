@@ -1,0 +1,17 @@
+document,category,description
+01_invoice_bordered,Bordered PDF,"Invoice with letterhead, totals outside the table"
+02_student_results_bordered,Bordered PDF,"Result sheet, serif font, zebra rows"
+03_employee_directory_bordered,Bordered PDF,Directory with alternating row colours
+04_sales_report_borderless,Borderless PDF,"Financial-report style, one rule under header"
+05_bank_statement_borderless,Borderless PDF,"Monospace statement, no lines, empty cells"
+06_inventory_borderless,Borderless PDF,Plain whitespace-aligned columns
+07_attendance_multipage,Multi-page PDF,"3 pages, header repeated on each page"
+08_transactions_continued,Multi-page PDF,"Header only on page 1, page 2 continues without header (hard case)"
+09_two_tables_one_page,Multiple tables per page,Two bordered tables with text between
+10_three_tables_report,Multiple tables per page,Three small tables with section headings
+11_merged_header_cells,Merged cells,Two-row header with merged (spanning) cells
+12_scanned_invoice,Scanned PDF,"Image-only PDF, tilt 0.7 deg, noise, dust, edge shadow"
+13_scanned_marksheet,Scanned PDF,"Image-only PDF, tilt -1.1 deg, grey zebra rows"
+14_table_screenshot,Image (screenshot),"Clean web-dashboard style screenshot, light grid"
+15_spreadsheet_screenshot,Image (screenshot),Spreadsheet-style screenshot saved as JPEG
+16_phone_photo_receipt_table,Phone photo,"Tilted, perspective-skewed, uneven light, blurred, JPEG q55"

@@ -1,0 +1,25 @@
+Txn ID,Date,Channel,Amount (PKR),Status
+TXN413118,25-Apr-2026,Easypaisa,"55,421.50",Failed
+TXN330080,09-Apr-2026,Easypaisa,"64,154.00",Failed
+TXN452457,22-Apr-2026,Easypaisa,"22,132.75",Settled
+TXN752483,18-Apr-2026,Visa,"52,145.00",Settled
+TXN773971,14-Apr-2026,Mastercard,"61,015.50",Settled
+TXN372793,13-Apr-2026,JazzCash,"28,242.75",Pending
+TXN453894,25-Apr-2026,Easypaisa,"36,971.75",Pending
+TXN975467,03-Apr-2026,Easypaisa,"3,040.00",Pending
+TXN335113,21-Apr-2026,Visa,"85,926.00",Settled
+TXN359295,07-Apr-2026,Visa,"81,939.50",Settled
+TXN232352,16-Apr-2026,Visa,"74,420.50",Failed
+TXN833442,09-Apr-2026,JazzCash,"22,492.00",Settled
+TXN426147,04-Apr-2026,Bank Transfer,"3,865.25",Failed
+TXN515922,23-Apr-2026,Mastercard,"10,461.50",Settled
+TXN831059,25-Apr-2026,JazzCash,"90,187.00",Settled
+TXN464069,18-Apr-2026,Easypaisa,"87,206.25",Settled
+TXN630538,21-Apr-2026,JazzCash,"2,158.75",Failed
+TXN210665,14-Apr-2026,JazzCash,"83,807.75",Settled
+TXN556641,06-Apr-2026,Bank Transfer,"85,756.25",Failed
+TXN587455,14-Apr-2026,Bank Transfer,"35,679.25",Settled
+TXN971084,03-Apr-2026,JazzCash,"59,587.50",Failed
+TXN697530,20-Apr-2026,Easypaisa,"44,592.00",Failed
+TXN992288,11-Apr-2026,Mastercard,"64,404.50",Pending
+TXN936587,09-Apr-2026,JazzCash,"37,155.25",Settled
