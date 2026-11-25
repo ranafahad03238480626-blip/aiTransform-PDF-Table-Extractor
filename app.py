@@ -95,3 +95,7 @@ with col2:
     else:
         st.download_button(
             "Download CSV (zip, one CSV per table)",
+            data=to_csv_zip(tables),
+            file_name="tables_csv.zip",
+            mime="application/zip",
+        )
