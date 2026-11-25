@@ -1,0 +1,23 @@
+document,category,table,expected_shape,extracted_shape,shape_match,cell_accuracy,char_similarity,status,tables_expected_in_doc,tables_found_in_doc
+01_invoice_bordered.pdf,Bordered PDF,t1,9x5,9x5,True,1.0,1.0,ok,1,1
+02_student_results_bordered.pdf,Bordered PDF,t1,15x10,15x10,True,1.0,1.0,ok,1,1
+03_employee_directory_bordered.pdf,Bordered PDF,t1,19x6,19x6,True,1.0,1.0,ok,1,1
+04_sales_report_borderless.pdf,Borderless PDF,t1,8x7,19x7,False,0.0,0.0454,ok,1,1
+05_bank_statement_borderless.pdf,Borderless PDF,t1,17x5,33x6,False,0.1882,0.3382,ok,1,1
+06_inventory_borderless.pdf,Borderless PDF,t1,16x6,35x8,False,0.0,0.0775,ok,1,1
+07_attendance_multipage.pdf,Multi-page PDF,t1,23x6,23x6,True,1.0,1.0,ok,3,3
+07_attendance_multipage.pdf,Multi-page PDF,t2,23x6,23x6,True,1.0,1.0,ok,3,3
+07_attendance_multipage.pdf,Multi-page PDF,t3,23x6,23x6,True,1.0,1.0,ok,3,3
+08_transactions_continued.pdf,Multi-page PDF,t1,25x5,49x5,False,0.112,0.3229,ok,2,2
+08_transactions_continued.pdf,Multi-page PDF,t2,24x5,47x5,False,0.0833,0.2922,ok,2,2
+09_two_tables_one_page.pdf,Multiple tables per page,t1,5x4,5x4,True,1.0,1.0,ok,2,2
+09_two_tables_one_page.pdf,Multiple tables per page,t2,6x3,6x3,True,1.0,1.0,ok,2,2
+10_three_tables_report.pdf,Multiple tables per page,t1,6x3,6x3,True,1.0,1.0,ok,3,3
+10_three_tables_report.pdf,Multiple tables per page,t2,5x3,5x3,True,1.0,1.0,ok,3,3
+10_three_tables_report.pdf,Multiple tables per page,t3,4x2,4x2,True,1.0,1.0,ok,3,3
+11_merged_header_cells.pdf,Merged cells,t1,7x5,7x5,True,0.8857,0.8909,ok,1,1
+12_scanned_invoice.pdf,Scanned PDF,t1,8x5,7x8,False,0.0,0.0382,ok,1,1
+13_scanned_marksheet.pdf,Scanned PDF,t1,10x7,4x7,False,0.0,0.0414,ok,1,1
+14_table_screenshot.png,Image (screenshot),t1,10x5,10x8,False,0.34,0.3848,ok,1,1
+15_spreadsheet_screenshot.jpg,Image (screenshot),t1,9x5,9x7,False,0.1778,0.2884,ok,1,1
+16_phone_photo_receipt_table.jpg,Phone photo,t1,7x4,7x4,True,0.0,0.0437,ok,1,1
