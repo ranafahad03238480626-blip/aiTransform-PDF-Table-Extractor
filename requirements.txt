@@ -1,9 +1,10 @@
-
 streamlit
 pandas
 openpyxl
 pdfplumber
-pymupdf
 pytesseract
-Pillow
 opencv-python-headless
+numpy
+Pillow
+pymupdf
+python-dotenv

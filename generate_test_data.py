@@ -619,7 +619,7 @@ def a4_page_with(table_img, title_lines, dpi=200, tilt=0.8, shadow="left"):
         d.text((110, y), txt, font=font(sz, bold), fill=(15, 15, 15))
         y += sz + 14
     y += 30
-    ratio = (W - 220) / table_img.width
+    ratio = min(1.0, (W - 220) / table_img.width)
     if ratio < 1:
         table_img = table_img.resize((W - 220, int(table_img.height * ratio)),
                                      Image.LANCZOS)
@@ -635,7 +635,7 @@ def d12():
     rows, total = invoice_rows(7)
     save_gt(name, 1, rows)
     img = draw_table_image(rows, size=24, pad=14, header_fill=(70, 70, 70),
-                           right_cols=(0, 2, 3, 4), margin=0)
+                           right_cols=(0, 2, 3, 4), margin=6)
     page = a4_page_with(img, [("Lahore Hardware & Electric Store", 44, True),
                               ("Ph: 042-3578 2290   NTN: 3341827-5", 26, False),
                               ("Invoice # 2218      Date: 02/04/2026", 28, False)],
@@ -651,7 +651,7 @@ def d13():
     rows = [[c for c in r[:2] + r[2:5] + r[-2:]] for r in rows]  # fewer cols
     save_gt(name, 1, rows)
     img = draw_table_image(rows, size=24, pad=13, header_fill=(60, 60, 60),
-                           zebra=(238, 238, 238), right_cols=(), margin=0)
+                           zebra=(238, 238, 238), right_cols=(), margin=6)
     page = a4_page_with(img, [("Allama Iqbal Public School", 46, True),
                               ("Mid-Term Marksheet - Class 10", 30, False)],
                         tilt=-1.1, shadow="right")
