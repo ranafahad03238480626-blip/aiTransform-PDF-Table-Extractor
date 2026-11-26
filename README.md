@@ -1,4 +1,4 @@
-# AITransform PDF Table Extractor
+﻿# AITransform PDF Table Extractor
 
 Upload a PDF or an image that contains tables, preview what was extracted, and
 download the result as an Excel workbook (one sheet per table) or as CSV.
@@ -49,8 +49,8 @@ compression.
 | 09 | Two tables with text between | Multiple tables per page |
 | 10 | Three small tables with headings | Multiple tables per page |
 | 11 | Two-row header with merged cells | Merged cells |
-| 12 | Scanned invoice, 0.7° tilt | Scanned PDF |
-| 13 | Scanned marksheet, -1.1° tilt | Scanned PDF |
+| 12 | Scanned invoice, 0.7Â° tilt | Scanned PDF |
+| 13 | Scanned marksheet, -1.1Â° tilt | Scanned PDF |
 | 14 | Web dashboard screenshot | Image |
 | 15 | Spreadsheet screenshot (JPEG) | Image |
 | 16 | Phone photo of a bill | Phone photo |
@@ -100,10 +100,10 @@ Per-table results are in `test_documents/evaluation_results.csv`.
 | Multi-page PDF | 5 | 0.639 | 1.000 |
 | Multiple tables per page | 5 | 1.000 | 1.000 |
 | Merged cells | 1 | 0.886 | 0.886 |
-| Image (screenshot) | 2 | 0.458 | 1.000 |
+| Image (screenshot) | 2 | 0.259 | 1.000 |
 | Phone photo | 1 | 0.000 | 1.000 |
 | Scanned PDF | 2 | 0.000 | 0.943 |
-| **Overall cell accuracy** | **22** | **0.599** | **0.990** |
+| **Overall cell accuracy** | **22** | **0.581** | **0.990** |
 
 v2 overall: char similarity 0.993, shape match 1.000.
 v1 was a simple `pdfplumber` text strategy plus whole-image OCR that split
@@ -119,7 +119,7 @@ was tuned on it, so v2 is optimistic. Real-world documents will score lower.
 - OCR needs ruling lines for best results. Scanned tables without lines use the weaker word-position fallback.
 - OCR can confuse similar characters (e.g. a grade "C" read as "Cc"), and very low-resolution or heavily blurred photos will fail.
 - Tables are matched to ground truth by reading order, so one missed table shifts the match for the following ones in the same file.
-- Handwriting, rotated pages (90°), non-English scripts and nested tables are not supported.
+- Handwriting, rotated pages (90Â°), non-English scripts and nested tables are not supported.
 - OCR runs cell by cell and is slow on large tables (several seconds per page).
 
 ## Project structure
@@ -131,3 +131,4 @@ generate_test_data.py   builds the test documents and ground truth
 test_documents/         docs/, ground_truth/, manifest.csv, evaluation results
 requirements.txt  packages.txt  .env.example
 ```
+
