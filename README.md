@@ -3,7 +3,7 @@
 Upload a PDF or an image that contains tables, preview what was extracted, and
 download the result as an Excel workbook (one sheet per table) or as CSV.
 
-**Live app:** `<paste your Streamlit URL here>`
+**Live app:** `https://aitransform-table-extractor.streamlit.app/`
 
 ## Features
 - Text-based PDFs with ruled (bordered) tables
